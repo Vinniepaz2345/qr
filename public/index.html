@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vinnie Bot Link</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: white;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      flex-direction: column;
+    }
+    iframe {
+      border: none;
+    }
+    .button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      background: #ff9a9e;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Link WhatsApp with QR</h1>
+  <iframe src="/pair" width="320" height="360"></iframe>
+  <button class="button" onclick="window.location.reload()">Refresh QR</button>
+</body>
+</html>
